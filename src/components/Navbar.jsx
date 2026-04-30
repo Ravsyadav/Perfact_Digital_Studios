@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between'>
 
           {/* Logo Section */}
-          <Link to="/">
+          <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to="/">
             <div className='cursor-pointer'>
                 <img className='h-8 w-auto md:h-10 lg:h-16 rounded' src={assets.logo} alt="Logo" />
             </div>
