@@ -1,6 +1,10 @@
 import React from 'react'
 import LightGallery from 'lightgallery/react';
 
+import {assets} from '../assets/assets'
+
+import { images } from '../assets/images/images';
+
 // import styles
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
@@ -18,13 +22,23 @@ const Gallery = () => {
     };
 
   return (
-    <div className="App px-50 py-50 text-2xl md:text-4xl text-center">
+    <div className="App py-25 px-2 bg-linear-to-r from-champagne/20 to-cream/20 -z-10" data-aos='fade-up'
+          data-aos-delay='200'>
             <LightGallery
                 onInit={onInit}
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
             >
-              Gallery Page 
+              {
+                images.map((image, idx)=>{
+                    return (
+                      <a href={image.img} key={idx}>
+                        <img className='rounded-2xl mb-2 hover:scale-105 transition-transform duration-500 opacity-100 hover:opacity-80' 
+                        
+                        alt={image.alt} src={image.img} />
+                      </a>
+                   )
+                })}
             </LightGallery>
         </div>
   )
