@@ -44,7 +44,7 @@ const Home = () => {
                 </Link>
 
                 <Link to='/contact'>
-                  <button className='bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-white/10 transition duration-300 cursor-pointer'> Get in Touch </button>
+                  <button className='bg-transparent border-2 border-white text-white px-10 py-4 rounded-full text-lg font-medium hover:bg-white/10 transition duration-300 cursor-pointer'> Get in Touch </button>
                 </Link> 
                 
               </div>

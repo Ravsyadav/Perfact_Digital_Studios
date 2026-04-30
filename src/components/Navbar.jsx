@@ -6,7 +6,7 @@ import { FaXmark, FaBars } from 'react-icons/fa6';
 
 const Navbar = () => {
 
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
 
   return (
     <nav className='fixed w-full bg-champagne/20 backdrop-blur-sm z-50 shadow-sm'>
