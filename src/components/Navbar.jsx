@@ -68,27 +68,27 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden mt-4 pb-4`}>
+
             <div className='flex flex-col space-y-6'>
+              <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to='/' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                  Home
+              </Link>
 
-              <Link to='/' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
-                    Home
-                </Link>
+              <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to='/about' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                  About 
+              </Link>
 
-                <Link to='/about' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
-                    About 
-                </Link>
+              <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to='/gallery' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                  Gallery
+              </Link>
 
-                <Link to='/gallery' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
-                    Gallery
-                </Link>
+              <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to='/services' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                  Services
+              </Link>
 
-                <Link to='/services' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
-                    Services
-                </Link>
-
-                <Link to='/contact' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
-                    Contact
-                </Link>
+              <Link onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} to='/contact' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                  Contact
+              </Link>
              
               <div>
                 <a className='text-4xl text-rose hover:text-gold ease-in-out duration-400' href="https://www.instagram.com/perfect_digital_studios/">
