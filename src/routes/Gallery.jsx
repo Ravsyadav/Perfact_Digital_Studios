@@ -18,7 +18,7 @@ const Gallery = () => {
     };
 
   return (
-    <div className="App px-50 py-50 text-2xl md:text-9xl text-center">
+    <div className="App px-50 py-50 text-2xl md:text-4xl text-center">
             <LightGallery
                 onInit={onInit}
                 speed={500}
