@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Desktop Navigation */}
            <div className='hidden md:flex space-x-6 items-center text-dark/80 font-bold'>
 
-                <Link to='/' className='text-charcoal hover:text-gold font-medium transition duration-300 cursor-pointer'>
+                <Link to='/' className='text-text-gradient-rose hover:text-gold font-medium transition duration-300 cursor-pointer'>
                     Home
                 </Link>
 

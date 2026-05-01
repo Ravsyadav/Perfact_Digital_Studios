@@ -31,7 +31,7 @@ const Gallery = () => {
     };
 
   return (
-    <div className="App py-25 px-2 bg-black grid grid-cols-2 md:grid-cols-3 gap-4" data-aos='fade-up'
+    <div className="App py-25 px-2 bg-black grid grid-cols-2 md:grid-cols-3 gap-3" data-aos='fade-up'
           data-aos-delay='200'>
             <LightGallery
                 onInit={onInit}
