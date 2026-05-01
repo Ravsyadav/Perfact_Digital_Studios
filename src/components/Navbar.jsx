@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
 
   return (
-    <nav className='fixed w-full bg-champagne/20 backdrop-blur-lg z-50 shadow-sm'>
+    <nav className='fixed w-full bg-champagne/20 backdrop-blur-2xl z-50 shadow-sm top-0 '>
       <div className='container mx-auto px-4 py-4'>
 
         <div className='flex items-center justify-between'>
