@@ -31,7 +31,7 @@ const Gallery = () => {
     };
 
   return (
-    <div className="App py-25 px-2 bg-linear-to-r from-champagne/20 to-cream/20 -z-10" data-aos='fade-up'
+    <div className="App py-25 px-2 bg-linear-to-r from-champagne/20 to-cream/20 -z-10 columns-2 md:columns-3 gap-8" data-aos='fade-up'
           data-aos-delay='200'>
             <LightGallery
                 onInit={onInit}
