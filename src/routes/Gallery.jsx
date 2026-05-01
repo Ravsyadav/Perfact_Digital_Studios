@@ -31,7 +31,7 @@ const Gallery = () => {
     };
 
   return (
-    <div className="App py-25 px-2 bg-black" data-aos='fade-up'
+    <div className="App py-25 px-2 bg-white/20" data-aos='fade-up'
           data-aos-delay='200'>
             <LightGallery
                 onInit={onInit}
@@ -42,7 +42,7 @@ const Gallery = () => {
                 images.map((image, idx)=>{
                     return (
                       <a href={image.img} key={idx}>
-                        <img className='rounded-xl mb-2 hover:scale-105 transition-transform duration-500 opacity-100 hover:opacity-80 grid grid-cols-2 md:grid-cols-3 gap-4' 
+                        <img className='rounded-xl mb-2 hover:scale-105 transition-transform duration-500 opacity-100 hover:opacity-80 cursor-pointer' 
                         
                         alt={image.alt} src={image.img} />
                       </a>
