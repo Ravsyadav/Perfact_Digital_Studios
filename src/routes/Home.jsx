@@ -33,11 +33,11 @@ const Home = () => {
         {/* Hero Content */}
           <div className='container mx-auto sm:px-4 md:px-6 lg:px-8 z-10 relative'>
             <div className='max-w-3xl'>
-              <h1 className='text-5xl pl-6 md:text-7xl lg:text-8xl font-playfair text-white mb-6 font-bold'>Perfact <span className='text-gradient-gold'> Digital </span> Studios</h1>
-              <div className='pl-6 text-2xl md:text-3xl lg:text-4xl font-playfair text-gradient-gold mb-6 font-semibold'>CAPTURE || CREATE || SHARE</div>
-              <p className='text-xl text-white/90 pl-6 font-thin mb-10'> My Phone is my <span className='text-gradient-gold'> DIARY,</span> and these <span className='text-gradient-gold'>PHOTOS</span> are the pages.</p>
+              <h1 className='text-5xl pl-6 md:text-7xl lg:text-8xl font-playfair text-white mb-6 font-bold'>Ravs <span className='text-gradient-gold'> Gallery </span></h1>
+              <div className='pl-6 text-2xl md:text-3xl lg:text-4xl font-playfair text-gradient-gold mb-5 font-semibold'>CAPTURE || CREATE || SHARE</div>
+              <p className='text-xl text-white/90 pl-6 font-thin mb-8'> My Phone is my <span className='text-gradient-gold'> DIARY,</span> and these <span className='text-gradient-gold'>PHOTOS</span> are the pages.</p>
 
-              <div className='flex flex-col sm:flex-row gap-4'>
+              <div className='flex flex-col sm:flex-row gap-4 pl-5'>
 
                 <Link to='/gallery'>
                   <button className='bg-gradient-gold text-white px-8 py-4 rounded-full text-lg font-medium hover:shadow-xl hover:shadow-gold/30 transition duration-300 cursor-pointer'> View Our Work </button>

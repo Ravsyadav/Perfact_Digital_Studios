@@ -142,7 +142,7 @@ export const serviceLinks = [
   ]
 
 export const socialLinks = [
-    { icon: FaInstagram , href: 'https://www.instagram.com/perfect_digital_studios/' },
+    { icon: FaInstagram , href: 'https://www.instagram.com/ravs_gallery/' },
     { icon: FaFacebook, href: '#' },
     { icon: FaPinterest, href: '#' },
     { icon: FaYoutube, href: '#' }

@@ -42,13 +42,13 @@ const About = () => {
                   <p className='text-charcoal/70 font-light'>Real emotions, captured anytime, anywhere</p>
                 </div>
               </div>
-              <a href="https://www.instagram.com/perfect_digital_studios/">
+              <a href="https://www.instagram.com/ravs_gallery/" target="_blank" rel="noopener noreferrer">
                 <div className='flex items-start gap-4'>
                   <div className='bg-gradient-gold p-3 rounded-full'>
                     <FaInstagram className='text-white text-xl' />
                   </div>
                   <div>
-                    <h4 className='font-bold text-lg mb-1 '>Perfact Digital Studios</h4>
+                    <h4 className='font-bold text-lg mb-1 '>Ravs Gallery</h4>
                     <p className='text-charcoal/70 font-light'>My phone is my diary, and these photos are the pages.</p>
                   </div>
                 </div>

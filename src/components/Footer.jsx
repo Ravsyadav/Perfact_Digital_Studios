@@ -12,7 +12,7 @@ const Footer = () => {
 
                 {/* Logo */}
                 <div className='md:col-span-1'>
-                    <div className='text-3xl font-bold font-playfair text-gradient-gold mb-4'>Perfact Digital Studios</div>
+                    <div className='text-3xl font-bold font-playfair text-gradient-gold mb-4'>Ravs Gallery</div>
                     <p className='text-white/70 mb-6 font-light'>My Phone is my diary, and these photos are the pages.</p>
                     <div className='flex items-center space-x-4'>
                         {socialLinks.map((link, idx)=>(
@@ -69,7 +69,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className='border-t border-white/20 mt-12 pt-8 text-white/60 text-center'>
                 <p className='text-xs'>
-                    © 2026 Perfect Digital Studios. All rights reserved. Designed <FaHeart className='inline text-rose'/> with creativity and passion.
+                    © 2026 Ravs Gallery. All rights reserved. Designed <FaHeart className='inline text-rose'/> with creativity and passion.
                 </p>
             </div>
         </div>

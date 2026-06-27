@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Insta Icon */}
           <div className='hidden md:block'>
 
-            <a className=' text-5xl text-rose hover:text-gold ease-in-out duration-400' href="https://www.instagram.com/perfect_digital_studios/">
+            <a className=' text-5xl text-rose hover:text-gold ease-in-out duration-400' href="https://www.instagram.com/ravs_gallery/">
               <FaInstagram />
             </a>
             
@@ -91,7 +91,7 @@ const Navbar = () => {
               </Link>
              
               <div>
-                <a className='text-4xl text-rose hover:text-gold ease-in-out duration-400' href="https://www.instagram.com/perfect_digital_studios/">
+                <a className='text-4xl text-rose hover:text-gold ease-in-out duration-400' href="https://www.instagram.com/ravs_gallery/">
                   <FaInstagram />
                 </a>
               </div>
